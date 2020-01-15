@@ -1,0 +1,11 @@
+aside {
+  background-color: #fff;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+  padding: 30px;
+  width: 300px;
+}
+
+aside h2 {
+  color: #333;
+  text-align: center;
+}

@@ -1,0 +1,37 @@
+aside form {
+  padding-top: 30px;
+}
+
+aside form .input-group {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+}
+
+aside form .input-block label {
+  color: #858585;
+  display: block;
+  font-weight: bold;
+}
+
+aside form .input-block input {
+  border: 1px solid rgb(219, 219, 219);
+  margin: 5px 0 10px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+aside form input[type="submit"] {
+  background-color: #7d40e7;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+aside form input[type="submit"]:hover {
+  background-color: #6931ca;
+}

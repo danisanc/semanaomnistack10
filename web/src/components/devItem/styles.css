@@ -1,0 +1,38 @@
+main ul li {
+  background-color: #fff;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+  padding: 30px;
+  list-style: none;
+}
+
+main ul li header {
+  display: flex;
+}
+
+main ul li header img {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+}
+
+main ul li header .user-infos {
+  margin-left: 10px;
+}
+
+main ul li header .user-infos h4 {
+  color: #333;
+}
+
+main ul li header .user-infos span {
+  color: #999;
+}
+
+main ul li p {
+  margin: 10px 0;
+  color: #666;
+}
+
+main ul li a {
+  color: #7d40e7;
+  text-decoration: none;
+}
