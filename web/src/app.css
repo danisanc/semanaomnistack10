@@ -1,0 +1,27 @@
+#app {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 60px 30px;
+}
+
+@media screen and (max-width: 1000px) {
+  #app {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  #app aside {
+    width: 100%;
+  }
+
+  #app main {
+    margin-top: 30px;
+  }
+
+  #app main ul {
+    padding: 0;
+  }
+}
